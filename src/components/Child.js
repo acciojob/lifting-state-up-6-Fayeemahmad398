@@ -18,6 +18,7 @@ const Child = (props) => {
               }}
             >
               Completed
+              
             </button>
           )}
         </li>
