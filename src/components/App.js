@@ -8,8 +8,10 @@ function App() {
     { id: 2, text: "Build a React app", completed: false },
     { id: 3, text: "Deploy the React app", completed: false },
   ]);
+  
 
   const handleComplete = (id) => {
+
     const updatedTodos = todos.map((todo) => {
       if (todo.id === id) {
         return { ...todo, completed: true };
